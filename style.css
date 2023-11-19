@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Martel+Sans:wght@400;600;700;800&family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    background-image: url("assests/image/background.jpg");
+    height: 85vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: max("1400px , 85vw");
+    position: relative;
+}
+
+.main .box {
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85vw;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: rgb(22, 20, 20, 0.8);
+}
+
+nav img {
+    z-index: 10;
+    position: relative;
+    width: 144px;
+    z-index: 2;
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+    width: 8em;
+    height: 3em;
+}
+body{
+    background-color: black;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 152px 0px;
+    padding: 13px;
+    gap: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.info>:first-child {
+    font-size: 48px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+}
+
+.info>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.info>:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.info button {
+    font-weight: 500;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 6px 1.5rem;
+}
+
+.info input {
+    width: 299px;
+    padding: 0.5rem 1rem 0.5rem;
+    min-height: 36px;
+    background-color: rgba(36, 34, 34, 0.76);
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+}
+
+.buttonred {
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+cursor: pointer;
+}
+.buttonblack{
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+.info input::placeholder{
+    color: white;
+    font-size: 18px;
+}
+.seperate{
+    background-color: gray;
+    height: 10px;
+    width:100vw;
+}
