@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Martel+Sans:wght@400;600;700;800&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Martel+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;900&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 16px;
 }
 
 .main {
@@ -67,19 +68,19 @@ body{
 }
 
 .info>:first-child {
-    font-size: 48px;
+    font-size: 3em;
     font-family: 'Martel Sans', sans-serif;
     font-weight: 900;
 }
 
 .info>:nth-child(2) {
-    font-size: 24px;
+    font-size: 1.3em;
     font-weight: 400;
     font-family: 'Martel Sans', sans-serif;
 }
 
 .info>:nth-child(3) {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 400;
     font-family: 'Martel Sans', sans-serif;
 }
@@ -100,7 +101,7 @@ body{
     background-color: rgba(36, 34, 34, 0.76);
     border-radius: 7px;
     color: white;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 
 .buttonred {
@@ -108,20 +109,125 @@ body{
     background-color: red;
     border-radius: 7px;
 cursor: pointer;
+font-weight: 500;
 }
 .buttonblack{
     color: white;
     background-color: black;
     border-radius: 7px;
     cursor: pointer;
+    font-weight: 400;
 
 }
 .info input::placeholder{
     color: white;
-    font-size: 18px;
+    font-size: 0.7em;
 }
 .seperate{
-    background-color: gray;
+    background-color:rgb(35, 35, 35);
     height: 10px;
     width:100vw;
+}
+ .enjoy1{
+display: flex;
+color: white;
+align-items: center;
+justify-content: center;
+font-family: 'Martel Sans', sans-serif;
+margin: auto;
+align-content: center;
+max-width: 70vw;
+font-family: 'Poppins', sans-serif;
+
+}
+ .enjoy1 > div :nth-child(2) {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.enjoy1 > div :first-child {
+    font-size: 2em;
+    font-weight: 900; 
+
+} 
+.simg{
+    position: relative;
+}
+.enjoy1 img {
+    width: 605px;
+    position: relative;
+    z-index: 10;
+    top: 0;
+}
+.enjoy1 video{
+position: absolute;
+position: absolute;
+top: 87px;
+right: 46px;
+} 
+.enjoy2{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Martel Sans', sans-serif;
+    margin: auto;
+    align-content: center;
+    max-width: 70vw;
+    font-family: 'Poppins', sans-serif;
+    }
+.enjoy2 img {
+    width: 605px;
+    position: relative;
+    z-index: 10;
+    top: 0;
+}
+.enjoy2 video{
+position: absolute;
+top: 34px;
+right: 109px;
+width: 393px;
+} 
+.box{
+ height: 1.8em;
+     width: 75vw; 
+    margin: 5px auto;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    padding: 10px;
+    justify-content: space-between;
+}
+.faq{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.faq :first-child{
+    font-size: 3em;
+    font-weight: 900;
+}
+.mores{
+color: white;
+font-size: 2em;
+text-align: center;
+margin: 2.5em 0px 0px auto;
+}
+.more input::placeholder{
+    color: white;
+    font-size: 0.7em;
+}
+@media screen and (max-width: 700px) {
+*{
+    font-size: 12px;
+}
+}
+@media screen and (max-width:500px){
+    *{
+        font-size: 10px;
+    }
 }
