@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Martel+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@400;500;900&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -12,8 +11,9 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: max("1400px , 85vw");
+    background-size: max("1300px , 85vw");
     position: relative;
+    max-width: 97vw;
 }
 
 .main .box {
@@ -126,7 +126,7 @@ font-weight: 500;
 .seperate{
     background-color:rgb(35, 35, 35);
     height: 10px;
-    width:100vw;
+    width:auto;
 }
  .enjoy1{
 display: flex;
@@ -219,13 +219,63 @@ margin: 2.5em 0px 0px auto;
 }
 .more input::placeholder{
     color: white;
-    font-size: 0.7em;
+    font-size: 1.1em;
+}
+.more input{
+    width: 299px;
+    padding: 0.5rem 1rem 0.5rem;
+    min-height: 36px;
+    background-color: rgba(36, 34, 34, 0.76);
+    border-radius: 7px;
+    color: white;
+    font-size: 1.1em;
+}
+.more button{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 6px 1.5rem;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin: 2.5em 0 2em auto;
+}
+.foot{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr ;
+   justify-items: center;
+   font-size: 0.9em;
+   gap: 10px;
+   margin: 0px 10px;
+}
+.foot a{
+    color: rgb(167, 175, 167);
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+.foot ul li{
+    padding: 5px auto;
+}
+.footbutton{
+    text-align: left;
+    padding: 10px;
+    font-weight: 400;
+}
+.ques{
+    color:rgb(167, 175, 167) ;
+    text-align: left;
+    margin: 20px 0px;
 }
 @media screen and (max-width: 700px) {
 *{
     font-size: 12px;
 }
-}
+
 @media screen and (max-width:500px){
     *{
         font-size: 10px;
